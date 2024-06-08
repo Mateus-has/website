@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre | Web site</title>
+</head>
+
+<body>
+    <header style="background-image: url('IMG/background-sobre1.jpg')">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="IMG/logo.png" alt="Logo"></a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle-o"></i>
+                    </div><!--close-icon-->
+                </ul><!--fim ul-->
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div><!--menu-icon-->
+            </nav><!--fim nav-->
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Sobre</h1>
+                </div><!--banner-text-->
+            </section><!--banner-->
+        </div><!--fim container-->
+    </header>
+    
+    <section class="sobre">
+        <div class="container">
+            <div class="sobre-text">
+                <h3>Estamos nesse mercado à mais de 8 anos.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia a eaque vero laboriosam aliquid harum optio? Laudantium, suscipit repellendus? Nesciunt voluptatum consequuntur at earum, expedita quo numquam obcaecati tenetur alias!</p>
+                <a href="contato.html" class="btn animate-btn">Entrar em Contato</a>
+            </div>
+            <div class="sobre-img">
+                <img src="IMG/sobre.jpg" alt="Sobre">
+            </div>
+        </div><!--container-->
+    </section><!--sobre-->
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"> <i class="fa fa-facebook"></i></a>
+                <a href="#"> <i class="fa fa-instagram"></i></a>
+                <a href="#"> <i class="fa fa-github"></i></a>
+                <a href="#"> <i class="fa fa-linkedin"></i></a>
+            </div> <!--links-->
+            <p>Desenvolvido por Mateus Henrique </p>
+        </div> <!--container-->
+    </footer><!--footer-->
+    <script src="js/main.js"></script>
+</body>
+</html>
